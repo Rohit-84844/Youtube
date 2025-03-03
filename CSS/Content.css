@@ -1,0 +1,53 @@
+.Video-Frame{
+    width: 100%;
+    display: inline-block; 
+}
+.Video-Thumbnail{
+    width: 100%;
+    display: inline-block;
+}
+.Thumbnail{
+    width: 100%;
+}
+.Video-Info-Grid{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    column-gap: 10px;
+}
+.Video-Profile{
+    width: 30px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 14px;
+
+}
+.Profile{
+    width: 30px;
+    border-radius: 100px;
+    display: inline-block;
+}
+.Video-Info{
+    display: inline-block;
+    width: 100%;
+}
+.Video-Title{
+    display: inline;
+}
+.Title{
+    font-family: Roboto,arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.Name,.Views{
+    color: rgb(96, 96, 96);
+    font-family: Roboto,arial;
+    font-size: 12px;
+}
+.Name{
+    margin-bottom: 0;
+}
+.Views{
+    margin-top: 5px;
+}
